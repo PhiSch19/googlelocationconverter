@@ -33,7 +33,6 @@ public class JSONObject {
 
 		protected final static Function<String, BigDecimal> gpsConverter = t -> new BigDecimal(t)
 				.divide(new BigDecimal("10000000"));
-
 	}
 
 }

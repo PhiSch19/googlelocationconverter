@@ -21,19 +21,14 @@ public class LocationConverter {
 
 	@NonNull
 	private final String path;
-
 	@NonNull
 	private final String sourceFileName;
-
 	@Builder.Default
 	private String resultFolder = "Converted";
-
 	@Builder.Default
 	private String resultFileName = "file";
-
 	@Builder.Default
 	private int numberOfLocationsIn1File = 1000;
-
 	@Builder.Default
 	private boolean sortByTimestampDesc = false;
 

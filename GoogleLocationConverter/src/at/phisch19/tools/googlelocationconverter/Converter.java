@@ -7,6 +7,7 @@ import java.io.IOException;
  */
 public class Converter {
 
+	// TODO - Configuration to GUI
 	// BEGIN MANDATORY Configurations
 	private static String path = "D:\\LocationData\\";
 	private static String source = "data";

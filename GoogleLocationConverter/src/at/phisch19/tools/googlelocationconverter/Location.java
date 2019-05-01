@@ -14,11 +14,9 @@ public class Location {
 	@Getter
 	@Setter
 	private Timestamp timestamp;
-
 	@Getter
 	@Setter
 	private BigDecimal latitude;
-
 	@Getter
 	@Setter
 	private BigDecimal longitude;
