@@ -2,9 +2,6 @@ package at.phisch19.tools.googlelocationconverter;
 
 import java.io.IOException;
 
-/**
- * @author Philipp Schermann
- */
 public class Converter {
 
 	// TODO - Configuration to GUI
