@@ -6,19 +6,11 @@ import java.math.BigDecimal;
 import java.sql.Timestamp;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 @Data
 public class Location {
-	@Getter
-	@Setter
 	private Timestamp timestamp;
-	@Getter
-	@Setter
 	private BigDecimal latitude;
-	@Getter
-	@Setter
 	private BigDecimal longitude;
 
 	private String toHtml() {

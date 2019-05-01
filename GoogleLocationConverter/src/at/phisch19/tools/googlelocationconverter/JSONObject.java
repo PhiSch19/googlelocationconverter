@@ -6,21 +6,16 @@ import java.util.List;
 import java.util.function.Function;
 
 import lombok.Data;
-import lombok.Getter;
 
 @Data
 public class JSONObject {
 
-	@Getter
 	private List<JSONLocation> locations;
 
 	@Data
 	public static class JSONLocation {
-		@Getter
 		private long timestampMs;
-		@Getter
 		private String latitudeE7;
-		@Getter
 		private String longitudeE7;
 
 		protected Location createLocation() {
