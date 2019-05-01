@@ -22,8 +22,6 @@ public class Location {
 	private BigDecimal longitude;
 
 	private String toHtml() {
-//		return "<a href=\"https://latlong.net/c/?lat=" + latitude + "&long=" + longitude + "\" target=\"_blank\">"
-//				+ timestamp + "</a></br>";
 		String linkTo = "https://latlong.net/c/?lat=" + latitude + "&long=" + longitude;
 		return Utils.createHTMLLink(linkTo, timestamp.toString());
 	}
