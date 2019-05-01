@@ -1,7 +1,7 @@
 # googlelocationconverter
 A short Converter for the Google Data you can get from https://takeout.google.com/ to HTML-Files with a Link to https://latlong.net.
 
-This converter uses the following Libaries:
+This converter uses the following Libraries:
 
 GSON (https://github.com/google/gson/)
 
