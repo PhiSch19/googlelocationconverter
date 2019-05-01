@@ -11,5 +11,5 @@ LOMBOK (https://github.com/rzwitserloot/lombok)
 
 
 
-Configurations is at the moment only possible in the Class Converter.
+Configuration of the Converter is at the moment only possible in the Class Converter.
 Here you have to configure the path and source. There are at the moment a few Options, e.g. sorting the links, these you can configurate with the Builder in the Main-Class.
