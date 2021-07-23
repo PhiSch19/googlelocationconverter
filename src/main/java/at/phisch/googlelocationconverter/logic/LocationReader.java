@@ -5,6 +5,7 @@ import at.phisch.googlelocationconverter.json.JsonLocation;
 import at.phisch.googlelocationconverter.json.JsonLocations;
 import com.google.gson.Gson;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -15,9 +16,9 @@ import java.util.stream.Collectors;
 
 public class LocationReader {
 
-    private final String file;
+    private final File file;
 
-    public LocationReader(String file) {
+    public LocationReader(File file) {
         this.file = file;
     }
 

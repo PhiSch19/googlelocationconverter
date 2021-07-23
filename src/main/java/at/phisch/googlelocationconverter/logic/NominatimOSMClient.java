@@ -14,6 +14,13 @@ public class NominatimOSMClient {
     //https://nominatim.openstreetmap.org/ui/search.html?q=47.0068016%2C16.205074
     //https://nominatim.openstreetmap.org/search.php?q=47.0068016%2C16.205074&format=jsonv2
 
+    public static String createLink(Location location) {
+        return String.format(Locale.US,
+                "https://nominatim.openstreetmap.org/ui/search.html?q=%f,%f",
+                location.getLatitude(),
+                location.getLongitude());
+    }
+
     public static void fillIntoLocation(Location location) throws IOException, InterruptedException {
 
         // create a client
